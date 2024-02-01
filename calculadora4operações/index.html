@@ -1,0 +1,42 @@
+<!DOCTYPE html> <!-- Declaração do tipo de documento HTML -->
+<html lang="pt-BR">
+    <!-- Abertura da tag html com atributo de linguagem portuguesa do Brasil -->
+
+    <head> <!-- Início da seção head -->
+        <meta charset="UTF-8">
+        <!-- Configuração da codificação de caracteres UTF-8 -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Configuração da viewport para dispositivos móveis -->
+        <title>Exemplo</title> <!-- Título da página -->
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <!-- Vínculo ao arquivo de estilo externo "styles.css" -->
+    </head> <!-- Fim da seção head -->
+
+    <body> <!-- Início da seção body -->
+        <form> <!-- Início do formulário -->
+            <label for="numeroA">Número A:</label>
+            <!-- Rótulo para o campo de entrada com id "numeroA" -->
+            <input type="text" id="numeroA" name="numeroA">
+            <!-- Campo de entrada para o número A -->
+
+            <label for="numeroB">Número B:</label>
+            <!-- Rótulo para o campo de entrada com id "numeroB" -->
+            <input type="text" id="numeroB" name="numeroB">
+            <!-- Campo de entrada para o número B -->
+
+            <button type="button" onclick="calcular()">Calcular</button>
+            <!-- Botão de cálculo com chamada de função onclick -->
+
+            <h2>Resultados:</h2> <!-- Título para os resultados -->
+            <p id="soma"></p> <!-- Parágrafo para exibir a soma -->
+            <p id="subtracao"></p> <!-- p para exibir a subtração -->
+            <p id="multiplicacao"></p>
+            <!-- p para exibir a multiplicação -->
+            <p id="pisao"></p> <!-- p para exibir a pisão -->
+            <p id="quadrado"></p> <!-- p para exibir o quadrado -->
+            <p id="cubo"></p> <!-- p para exibir o cubo -->
+        </form> <!-- Fim do formulário -->
+        <script src="../exemplo1/script.js"></script>
+        <!-- Vínculo ao arquivo de script externo "script.js" -->
+    </body> <!-- Fim da seção body -->
+</html> <!-- Fim da tag html -->
